@@ -409,10 +409,9 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.2.9f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.2.9f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.2.9f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
-"Assets/Scripts/EffectDrunken.cs"
-"Assets/Scripts/Increasing.cs"
+"Assets/Scripts/Increaser.cs"
 "Assets/Scripts/Mover.cs"
-"Assets/Scripts/Rotation.cs"
+"Assets/Scripts/Rotater.cs"
 -langversion:9.0
 /deterministic
 /optimize+

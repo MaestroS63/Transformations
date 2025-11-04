@@ -808,6 +808,8 @@ GameObject:
   - component: {fileID: 1714819626}
   - component: {fileID: 1714819625}
   - component: {fileID: 1714819624}
+  - component: {fileID: 1714819630}
+  - component: {fileID: 1714819629}
   - component: {fileID: 1714819628}
   m_Layer: 0
   m_Name: Cube (1)
@@ -917,9 +919,35 @@ MonoBehaviour:
   m_GameObject: {fileID: 1714819623}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 77e3fe03015b7424b8537fe21ff08a0c, type: 3}
+  m_Script: {fileID: 11500000, guid: 9edb0532e2e7b6249bf4c72b66960845, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: 
+  m_EditorClassIdentifier: Assembly-CSharp::Rotater
+  _speed: 10
+--- !u!114 &1714819629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1714819623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6126d8b8189fff43849c010a689df56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Mover
+--- !u!114 &1714819630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1714819623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 370376a9a54524a4c9d1f9833ad09329, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Increaser
+  _increasingSpeed: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
